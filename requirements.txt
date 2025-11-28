@@ -1,0 +1,4 @@
+flet
+firebase-admin
+pandas
+openpyxl

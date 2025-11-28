@@ -1,0 +1,24 @@
+# Bỏ qua file cấu hình Firebase (QUAN TRỌNG)
+serviceAccountKey.json
+
+# Bỏ qua thư mục ảo Python
+venv/
+.venv/
+env/
+
+# Bỏ qua file rác Python
+__pycache__/
+*.py[cod]
+
+# Bỏ qua file đóng gói exe (File nặng không nên up lên git)
+dist/
+build/
+*.spec
+
+# Bỏ qua file ảnh chụp màn hình lỗi (nếu có)
+*.png
+*.jpg
+
+# Bỏ qua file Excel import mẫu (nếu bạn muốn người dùng tự tạo)
+# Nhưng thường thì nên giữ lại file mẫu để người khác biết cách nhập
+# Mau_Import_*.xlsx
